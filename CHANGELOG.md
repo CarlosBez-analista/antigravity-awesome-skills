@@ -7,6 +7,93 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.10.0] - 2026-02-06 - "Composio Automation + .NET Backend"
+
+> A major expansion focused on practical app automation and stronger backend engineering coverage.
+
+### Added
+
+- **79 new skills total**.
+- **78 Composio/Rube automation skills** (PR #64), with operational playbooks for:
+- CRM and sales stacks (`HubSpot`, `Pipedrive`, `Salesforce`, `Zoho CRM`, `Close`).
+- Collaboration and project tools (`Notion`, `ClickUp`, `Asana`, `Jira`, `Confluence`, `Trello`, `Monday`).
+- Messaging and support channels (`Slack`, `Discord`, `Teams`, `Intercom`, `Freshdesk`, `Zendesk`).
+- Marketing and analytics systems (`Google Analytics`, `Mixpanel`, `PostHog`, `Segment`, `Mailchimp`, `Klaviyo`).
+- Infra/dev tooling (`GitHub`, `GitLab`, `CircleCI`, `Datadog`, `PagerDuty`, `Vercel`, `Render`).
+- **1 new `dotnet-backend` skill** (PR #65) with:
+- ASP.NET Core 8+ API patterns (Minimal APIs + controller-based).
+- EF Core usage guidance, JWT auth examples, and background worker templates.
+- Explicit trigger guidance and documented limitations.
+- **Registry size increased to 713 skills** (from 634).
+
+### Changed
+
+- Regenerated and synced discovery artifacts after merging both PRs:
+- `README.md` (counts + contributor updates)
+- `skills_index.json`
+- `CATALOG.md`
+- `data/catalog.json`
+- `data/bundles.json`
+- `data/aliases.json`
+- Release metadata updated for `v4.10.0`:
+- `package.json` / `package-lock.json` version bump
+- GitHub Release object published with release notes
+
+### Contributors
+
+- [@sohamganatra](https://github.com/sohamganatra) - 78 Composio automation skills (PR #64)
+- [@Nguyen-Van-Chan](https://github.com/Nguyen-Van-Chan) - .NET backend skill (PR #65)
+
+## [4.9.0] - 2026-02-05 - "OSS Hunter & Universal Skills"
+
+> Automated contribution hunting and universal CLI AI skills (Audio, YouTube, Prompt Engineering).
+
+### Added
+
+- **New Skill**: `oss-hunter` – Automated tool for finding high-impact Open Source contributions (Good First Issues, Help Wanted) in trending repositories.
+- **New Skill**: `audio-transcriber` – Transform audio recordings into professional Markdown with Whisper integration.
+- **New Skill**: `youtube-summarizer` – Generate comprehensive summaries/notes from YouTube videos.
+- **New Skill**: `prompt-engineer` (Enhanced) – Now includes 11 optimization frameworks (RTF, RISEN, etc.).
+- **Registry**: 634 skills (from 626). Catalog regenerated.
+
+### Changed
+
+- **CLI AI Skills**: Merged core skills from `ericgandrade/cli-ai-skills`.
+
+### Contributors
+
+- [@jackjin1997](https://github.com/jackjin1997) - OSS Hunter (PR #61)
+- [@ericgandrade](https://github.com/ericgandrade) - CLI AI Skills (PR #62)
+
+## [4.7.0] - 2026-02-03 - "Installer Fix & OpenCode Docs"
+
+> Critical installer fix for Windows and OpenCode documentation completion.
+
+### Fixed
+
+- **Installer**: Resolved `ReferenceError` for `tagArg` variable in `bin/install.js` ensuring correct execution on Windows/PowerShell (PR #53).
+
+### Documentation
+
+- **OpenCode**: Completed documentation for OpenCode integration in `README.md`.
+
+---
+
+## [4.6.0] - 2026-02-01 - "SPDD & Radix UI Design System"
+
+> Agent workflow docs (SPDD) and Radix UI design system skill.
+
+### Added
+
+- **New Skill**: `radix-ui-design-system` – Build accessible design systems with Radix UI primitives (headless, theming, WCAG, examples).
+- **Docs**: `skills/SPDD/` – Research, spec, and implementation workflow docs (1-research.md, 2-spec.md, 3-implementation.md).
+
+### Registry
+
+- **Total Skills**: 626 (from 625). Catalog regenerated.
+
+---
+
 ## [4.5.0] - 2026-01-31 - "Stitch UI Design"
 
 > Expert prompting guide for Google Stitch AI-powered UI design tool.
